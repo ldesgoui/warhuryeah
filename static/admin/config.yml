@@ -1,0 +1,34 @@
+backend:
+  name: git-gateway
+
+site_url: https://warhuryeah.netlify.com
+
+publish_mode: editorial_workflow
+
+media_folder: static/uploads
+public_folder: /uploads
+
+collections:
+  -
+    name: settings
+    label: Settings
+    delete: false
+    editor: { preview: false }
+    files:
+      -
+        name: links
+        label: Links
+        file: data/links.yml
+        fields:
+          -
+            name: links
+            widget: list
+            fields:
+              -
+                name: label
+                label: Label
+                widget: string
+              -
+                name: url
+                label: Url
+                widget: string

@@ -1,0 +1,12 @@
+[build]
+ command = "yarn build"
+ publish = "dist"
+
+[[headers]]
+ for = "/*"
+
+ [headers.values]
+  Feature-Policy = "fullscreen 'self'"
+  Referrer-Policy = "strict-origin-when-cross-origin"
+  X-Frame-Options = "DENY"
+  X-Xss-Protection = "1; mode=block"
