@@ -13,7 +13,7 @@ export default {
 
   buildModules: ["@nuxtjs/eslint-module", "@nuxtjs/tailwindcss"],
 
-  modules: ["@nuxtjs/pwa"],
+  modules: ["@nuxtjs/pwa", "@bazzite/nuxt-optimized-images"],
 
   build: {
     extend(config, ctx) {
@@ -28,5 +28,9 @@ export default {
     meta: {
       twitterCreator: "WARHURYEAH",
     },
+  },
+
+  optimizedImages: {
+    optimizeImages: true,
   },
 }

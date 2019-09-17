@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto p-8">
-    <img class="my-32 mx-auto" src="/icon.png" />
+    <img class="my-32 mx-auto" src="~/static/icon.png?inline" />
 
     <div class="flex flex-col md:flex-row items-center justify-around">
       <a
