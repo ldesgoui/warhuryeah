@@ -1,6 +1,10 @@
 export default {
   mode: "universal",
 
+  generate: {
+    fallback: true,
+  },
+
   loading: { color: "#000000" },
 
   css: ["typeface-barlow"],
