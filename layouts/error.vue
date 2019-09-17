@@ -11,7 +11,7 @@
       <p>Vewy sowwy</p>
     </div>
 
-    <n-link class="mt-8" to="/">
+    <n-link class="block mt-8" to="/">
       to Homepage
     </n-link>
   </div>
