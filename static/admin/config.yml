@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
 
-site_url: https://warhuryeah.netlify.com
+site_url: https://warhuryeah.gg
 
 publish_mode: editorial_workflow
 
