@@ -5,16 +5,6 @@ export default {
     fallback: true,
   },
 
-  render: {
-    csp: {
-      reportOnly: true,
-      policies: {
-        "script-src": ["https://identity.netlify.com"],
-        "report-uri": ["https://ldesgoui.report-uri.com/r/d/csp/wizard"],
-      },
-    },
-  },
-
   loading: { color: "#000000" },
 
   css: ["typeface-barlow"],
