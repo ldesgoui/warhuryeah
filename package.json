@@ -13,7 +13,7 @@
     "@bazzite/nuxt-optimized-images": "^0.2.1",
     "@nuxtjs/pwa": "^3.0.0-beta.19",
     "netlify-cms": "^2.9.7",
-    "nuxt": "^2.10.1",
+    "nuxt": "^2.10.2",
     "typeface-barlow": "^0.0.71"
   },
   "devDependencies": {
